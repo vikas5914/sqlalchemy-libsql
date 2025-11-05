@@ -47,12 +47,12 @@ class SQLiteDialect_libsql(SQLiteDialect_pysqlite):
 
     @classmethod
     def import_dbapi(cls):
-        import libsql_experimental as libsql
+        import libsql as libsql
 
         return libsql
 
     def on_connect(self):
-        import libsql_experimental as libsql
+        import libsql as libsql
 
         sqlite3_connect = super().on_connect()
 
