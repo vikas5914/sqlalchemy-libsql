@@ -3,7 +3,7 @@ import urllib.parse
 
 from sqlalchemy import util
 from sqlalchemy.dialects.sqlite.pysqlite import SQLiteDialect_pysqlite
-from libsql_experimental import Connection
+from libsql import Connection
 
 
 def _build_connection_url(url, query, secure):
