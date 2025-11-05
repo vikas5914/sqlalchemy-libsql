@@ -18,9 +18,9 @@ classifiers = [
     "Topic :: Database",
 ]
 dependencies = [
-    "libsql-experimental>=0.0.53",
     "sqlalchemy>=2.0.0",
     "greenlet>=3.0.3",
+    "libsql>=0.1.11",
 ]
 
 [project.optional-dependencies]
